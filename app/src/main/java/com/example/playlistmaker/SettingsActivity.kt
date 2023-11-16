@@ -15,6 +15,7 @@ class SettingsActivity : AppCompatActivity() {
         button_left.setOnClickListener {
             val leftIntent = Intent(this, MainActivity::class.java)
             startActivity(leftIntent)
+
         }
     }
 }
